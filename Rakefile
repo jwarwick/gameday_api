@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "gameday_api"
+    gem.name = "jwarwick_gameday_api"
     gem.summary = "An API for processing live MLB statistics."
     gem.description = "An API for processing live MLB statistics."
-    gem.email = "timothyf@gmail.com"
-    gem.homepage = "http://github.com/timothyf/gameday_api"
-    gem.authors = ["timothyf"]
+    gem.email = "jwarwick@gmail.com"
+    gem.homepage = "http://github.com/jwarwick/gameday_api"
+    gem.authors = ["jwarwick"]
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

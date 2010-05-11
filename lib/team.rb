@@ -273,7 +273,7 @@ class Team
   
   # Returns an array of all the games for this team for the year and month specified
   def get_games_for_month(year, month)
-    
+
   end
   
   

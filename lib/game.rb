@@ -370,6 +370,8 @@ class Game
   # Returns the team abreviation of the winning team
   def get_winner
     ls = get_boxscore.linescore
+    return "" unless defined?(ls)
+ 
     if ls.home_team_runs > ls.away_team_runs
       return home_team_abbrev
     else
@@ -454,6 +456,12 @@ class Game
     else
       return 0
     end
+  end
+  
+  def finished?
+    boxscore = get_boxscore
+    puts "status: #{boxscore.status_ind}"
+    boxscore.status_ind == 'F'
   end
   
 end
