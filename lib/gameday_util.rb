@@ -90,7 +90,7 @@ class GamedayUtil
        (month == 9 && date == 31)
        return false
     end
-    if month==4 and date<5 # start from 4/5 onward
+    if month==4 and date<4 # start from 4/4 (in 2010) onward
       return false
     end
     return true
