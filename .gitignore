@@ -1,2 +1,4 @@
 .svn
 lib/tmp/**/*
+*.tmproj
+
